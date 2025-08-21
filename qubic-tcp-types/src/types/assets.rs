@@ -9,7 +9,7 @@ use crate::MessageType;
 use super::transactions::TransactionData;
 
 pub const QXID: QubicId = QubicId([1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
-pub const TRANSFER_FEE: u64 = 1_000_000;
+pub const TRANSFER_FEE: u64 = 1_000;
 pub const ISSUE_ASSET_FEE: u64 = 1_000_000_000;
 
 macro_rules! generate_packed_integers {
